@@ -1,0 +1,14 @@
+- name: Generate configuration file
+  hosts: local
+
+  roles:
+    - access_switch
+
+
+#---
+#- name: Generate configuration file
+#  hosts: local
+
+
+#  roles:
+#   - router

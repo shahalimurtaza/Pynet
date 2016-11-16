@@ -1,0 +1,8 @@
+---
+switches:
+  - {hostname: pynet-sw1, ip_addr: 1.1.1.2, gateway: 1.1.1.1}
+  - {hostname: pynet-sw2, ip_addr: 1.1.1.3, gateway: 1.1.1.1}
+  - {hostname: pynet-sw3, ip_addr: 1.1.1.4, gateway: 1.1.1.1}
+  - {hostname: pynet-sw4, ip_addr: 1.1.1.5, gateway: 1.1.1.1}
+  - {hostname: pynet-sw5, ip_addr: 1.1.1.6, gateway: 1.1.1.1}
+  - {hostname: pynet-sw6, ip_addr: 1.1.1.7, gateway: 1.1.1.1}

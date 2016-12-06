@@ -1,0 +1,17 @@
+---
+
+- name: Ansible-Cisco file transfer
+  hosts: pynet-rtr1
+  gather_facts: False
+
+  tasks:
+  - name: File transfer
+    cisco_file_transfer:
+      source_file="/home/amurtaza/ANSIBLE/Ali.txt"
+      dest_file=Ali.txt
+      overwrite=true
+      enable_scp=true
+      host={{ host }}
+      port={{ port }}
+      username={{ username }}
+      password={{ password }}
